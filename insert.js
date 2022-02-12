@@ -9,7 +9,7 @@ const insert = async ()=>{
         {product:"Max4",price: 6098, Specification:"81gb RAM and ROM"},
         
     ])
-    if(result.acknowledge){
+    if(result.acknowledged){
         console.log("record inserted");
     }
 }
