@@ -3,7 +3,7 @@ const app = express();
 const dbConnect = require('./mongodb.js');
 
 
-
+//create data from the postman-----------
 app.use(express.json());
 
 
