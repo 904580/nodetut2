@@ -10,7 +10,7 @@ const reqFilter=(req,resp,next)=>{
        resp.send("you can't access the website");
    }
     else{
-        next();
+        next(); 
     }
 }
 
